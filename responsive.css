@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px){
+  #carousel{
+    flex-direction: column;
+  }
+
+  .informacion{
+    width: 100%;
+    text-align: center;
+  }
+
+  .flechas{
+    margin: 0px;
+  }
+
+  .slide-fotos{
+    width: 100%;
+  }
+
+  .slide{
+    min-width: 50%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  #carousel{
+    flex-direction: column;
+  }
+
+  .informacion{
+    width: 100%;
+    text-align: center;
+  }
+
+  .flechas{
+    margin: 0px;
+  }
+
+  .slide-fotos{
+    width: 100%;
+  }
+
+  .slide{
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .informacion h1{
+    font-size: 42px;
+    line-height: 50px;
+  }
+  
+  .informacion h3{
+    font-size: 25px;
+    line-height: 33px;
+  }
+  
+  .informacion p{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+}
+
